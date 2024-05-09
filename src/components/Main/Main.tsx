@@ -5,16 +5,15 @@ import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
+import nextjsIcon from "../../assets/nextjs.png";
 import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import vscodeIcon from "../../assets/vscode-icon.svg";
+import mysqlIcon from "../../assets/mysql-icon.svg";
 
 export function Main() {
   return (
@@ -148,11 +147,7 @@ export function Main() {
                 "weight": "400"
               },
               "image": [
-                {
-                  "src": boostrapIcon,
-                  "width": 20,
-                  "height": 20
-                },
+               
                 {
                   "src": cssIcon,
                   "width": 20,
@@ -163,11 +158,7 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                {
-                  "src": shopify,
-                  "width": 20,
-                  "height": 20
-                },
+               
                 {
                   "src": htmlIcon,
                   "width": 20,
@@ -178,11 +169,6 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
                   "src": nodeIcon,
                   "width": 20,
@@ -193,23 +179,24 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
+               
                 {
-                  "src": sassIcon,
+                  "src": nextjsIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": typescriptIcon,
+                  "src": vscodeIcon,
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
                   "src": vueIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                 {
+                  "src": reactIcon,
                   "width": 20,
                   "height": 20
                 },
@@ -258,7 +245,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Project></Project>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
     </Container>
   );
 }

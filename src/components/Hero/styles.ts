@@ -11,12 +11,13 @@ export const Container = styled.section`
       font-size: 1.8rem;
     }
     h1{
-      font-size: 7rem;
+      font-size: 9rem;
     }
 
     h3{
-      color:var(--green);
+      color:var(--purple);
       margin: 1rem 0;
+      font-size: 5rem;
     }
 
     
@@ -35,7 +36,7 @@ export const Container = styled.section`
 
     img,span{
       font-size: 3rem;
-      width: 3.5rem;
+      width: 8rem;
     }
   }
 

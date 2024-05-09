@@ -9,18 +9,25 @@ export const Container = styled.section`
   .hard-skills{
     margin-top: 1.6rem;
     display: flex;
-    align-items: center;
+    flex-direction:column;
+    padding-left:100px;
+  
     flex-wrap: wrap;
     gap: 1.8rem;
   }
   .hability{
     display: flex;
-    flex-direction: column;
     align-items: center;
 
     img{
-      width: 3.4rem;
+      width: 6.5rem;
     }
+  }
+
+  .scrollContainer{
+    display: flex;
+    gap: 3rem;
+    padding-bottom:40px;
   }
 
   h2{
@@ -29,12 +36,13 @@ export const Container = styled.section`
     // border-bottom: 0.2rem solid var(--blue);
     font-size :3rem;
     margin-top: 0rem;
-    color: var(--green);
+    color: var(--purple);
   }
 
   h3{
     margin-top: 2rem;
-    color: var(--green);
+    color: var(--purple);
+    font-size: 4rem;
   }
 
   p{

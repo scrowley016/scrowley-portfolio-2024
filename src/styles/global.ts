@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #23ce6b;
     --blue: #016fb9;
+    --purple: #8C2BCB;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -89,10 +90,14 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
+  p{
+    font-size: 32px !important;
+  }
+
   button, .button{
     border: none;
     cursor: pointer;
-    background-color: var(--green);
+    background-color: var(--purple);
     color: #FFFF;
     border-radius: 2rem;
     font-weight: 500;
@@ -112,7 +117,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 3rem;
     color: #FFFF;
     // &::first-letter{
-    //   color: var(--green);
+    //   color: var(--purple);
     // }
   }
 `
